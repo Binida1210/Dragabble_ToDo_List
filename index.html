@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>📖✅</text></svg>">
+
+</head>
+<body>
+    <div class="bg-mode">
+        <i class="light fa-regular fa-sun"></i>
+        <i class="dark fa-regular fa-moon"></i>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="left">
+                <h2>Todo</h2>
+                <div id="todo-list" class="list-container"></div>
+            </div>
+            <div class="right">
+                <h2>Done</h2>
+                <div id="done-list" class="list-container"></div>
+            </div>
+            <div class="add-task">
+                <input type="text" id="new-task" placeholder="Add new task..." />
+                <button id="add-btn">Add</button>
+            </div>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/fa5c94950d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="./javascript/draggable.js"></script>
+    <script src="./javascript/togglemode.js"></script>
+</body>
+</html>
